@@ -1,15 +1,3 @@
-# Lines configured by zsh-newuser-install
-HISTFILE=~/.histfile
-HISTSIZE=1000
-SAVEHIST=10000
-setopt appendhistory extendedglob nomatch
-unsetopt autocd beep notify
-bindkey -e
-# End of lines configured by zsh-newuser-install
-# The following lines were added by compinstall
-zstyle :compinstall filename '/Users/sanna/.zshrc'
-
-
 ZSH=$HOME/.zsh
 for config_file ($ZSH/lib/*.zsh) source $config_file
 
