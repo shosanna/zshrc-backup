@@ -41,7 +41,7 @@ at_sign() {
   git rev-parse --git-dir > /dev/null 2>&1 && echo "@"
 }
 
-local smiley="%(?,%{$fg[green]%}$%{$reset_color%},%{$fg[red]%}$%{$reset_color%})"
+local smiley="%(?,%{$fg[magenta]%}$%{$reset_color%},%{$fg[red]%}$%{$reset_color%})"
 
 local current_dir="%~"
 
